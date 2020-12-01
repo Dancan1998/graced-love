@@ -1,0 +1,36 @@
+@import "./variables";
+#second {
+  .title {
+    background: black;
+    color: whitesmoke;
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 4rem 0rem 4rem 0rem;
+    h1 {
+      font-family: $roboto;
+      font-weight: bold;
+      letter-spacing: 0.2rem;
+      font-size: 4rem;
+      text-transform: capitalize;
+    }
+    p {
+      padding: 1rem;
+      a {
+        color: whitesmoke;
+        text-decoration: none;
+        text-transform: capitalize;
+        margin-right: 0.8rem;
+        font-size: 1.2rem;
+      }
+      span {
+        font-size: 1.2rem;
+        text-transform: capitalize;
+        margin-left: 1rem;
+      }
+    }
+  }
+}

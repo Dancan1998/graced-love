@@ -1,0 +1,49 @@
+@import "./variables";
+#third {
+  .title2 {
+    background: black;
+    padding: 0.5rem;
+    color: whitesmoke;
+    width: 30%;
+    border-radius: 0.3rem;
+    h4 {
+      padding: 0.3rem;
+      font-family: $rubik;
+    }
+  }
+  .singleHeading {
+    font-family: $roboto;
+    padding-top: 0.8rem;
+    padding-bottom: 0.9rem;
+  }
+  .usersPart {
+    display: flex;
+    flex-direction: row;
+    p {
+      a {
+        color: white;
+        font-size: 1.1rem;
+      }
+    }
+  }
+  .singleText {
+    font-size: 1.2rem;
+  }
+  .nextButtons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+    button {
+      background: black;
+      padding: 0.8rem;
+      i {
+        color: white;
+        margin: 0.6rem;
+      }
+      a {
+        text-decoration: none;
+        color: white;
+      }
+    }
+  }
+}

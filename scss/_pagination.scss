@@ -1,0 +1,12 @@
+@import "./variables";
+.paginationBottom {
+  margin: 1rem;
+  .pagination {
+    .page-item {
+      .page-link {
+        color: $primaryColor;
+        font-size: 1.2rem;
+      }
+    }
+  }
+}

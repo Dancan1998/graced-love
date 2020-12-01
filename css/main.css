@@ -1,0 +1,509 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@100&family=Nunito:wght@200&family=Rubik:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+#topSection {
+  background: #dd2476;
+}
+
+#topSection .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1.2rem 1.2rem 1.2rem 0rem;
+}
+
+#topSection .top a {
+  text-decoration: none;
+  color: white;
+  margin: 0.2rem;
+  padding: 0.2rem 0.2rem 0.2rem 0rem;
+}
+
+#topSection .top a i {
+  font-size: 1.3rem;
+  padding: 0.2rem;
+}
+
+#topSection .top a:hover {
+  color: #ff512f;
+}
+
+#topSection .top .email {
+  font-size: 1.3rem;
+}
+
+#secondPosition {
+  background-color: whitesmoke;
+  color: black;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+#secondPosition .text h1 {
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  font-family: "Roboto Slab";
+  color: #dd2476;
+  font-weight: bold;
+}
+
+#secondPosition .advert {
+  background: rgba(0, 0, 0, 0.2);
+  padding: 0.7rem 0.5rem 0.7rem 0.3rem;
+  text-align: center;
+}
+
+#first .navbar {
+  background: #dd2476;
+  padding: 1.5rem;
+}
+
+#first .navbar .navbar-brand {
+  color: white;
+  font-size: 1.3rem;
+}
+
+#first .navbar .nav-link {
+  text-decoration: none !important;
+  color: white;
+  text-transform: uppercase;
+}
+
+#first .navbar .nav-link:hover {
+  color: #ff512f;
+}
+
+#first .navbar .form-inline input {
+  border: none;
+}
+
+#first .navbar .form-inline input:focus {
+  border: none !important;
+  background: white;
+  outline: none;
+}
+
+#first .navbar .form-inline button {
+  color: white;
+}
+
+#first .navbar .form-inline button:hover {
+  background: #ff512f;
+}
+
+#second .space {
+  margin-top: 0.8rem;
+}
+
+#second .heroText {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+#second .heroText img {
+  display: block;
+  width: 100%;
+  opacity: 0.8;
+}
+
+#second .heroText .text {
+  margin-top: -13rem;
+  margin-left: 3rem;
+  position: absolute;
+  z-index: 999;
+}
+
+#second .heroText .text button {
+  background-color: black;
+  padding: 0.5rem 0.9rem 0.5rem 0.9rem;
+  border-radius: 0.4rem;
+}
+
+#second .heroText .text a {
+  text-decoration: none;
+  color: white;
+  text-transform: capitalize;
+  font-family: "Barlow";
+  font-size: 1.2rem;
+}
+
+#second .heroText .text h2 {
+  color: white;
+  margin-top: 1rem;
+  font-size: 2rem;
+}
+
+#second .heroText .text .usersPart {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+#second .heroText .text .usersPart p {
+  margin: 0.6rem 0.5rem 0 0;
+}
+
+#second .heroText .text .usersPart p a {
+  text-decoration: none;
+  font-size: 1.4rem;
+}
+
+#second .heroText .text .usersPart p .move {
+  margin: 0rem 0rem 0rem 0.4rem;
+}
+
+#second .holder img {
+  width: 15rem;
+  height: 13rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: block;
+}
+
+#second .holder .text {
+  margin-top: -10rem;
+}
+
+#second .covid {
+  background-color: #fffcf2;
+  padding: 0.5rem;
+  margin: 0.4rem 0rem 0.4rem 0rem;
+  -webkit-box-shadow: 11px 1px 20px 0px rgba(0, 0, 0, 0.5);
+          box-shadow: 11px 1px 20px 0px rgba(0, 0, 0, 0.5);
+}
+
+#second .covid a {
+  text-decoration: none;
+  color: black;
+}
+
+#third {
+  padding-top: 2rem;
+}
+
+#third .space {
+  background-color: lavender;
+  padding: 1.5rem;
+}
+
+#third .space .heading {
+  background: #dd2476;
+}
+
+#third .space .heading h3 {
+  color: white;
+  text-transform: capitalize;
+  padding: 1rem;
+  letter-spacing: 0.1rem;
+  font-family: "Roboto Slab";
+}
+
+#third .space .textHolder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 0.8rem;
+}
+
+#third .space .textHolder .imageHere {
+  overflow: hidden;
+}
+
+#third .space .textHolder .imageHere img {
+  width: 18rem;
+  height: 15rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: block;
+}
+
+#third .space .textHolder .textHere {
+  margin-left: 1rem;
+}
+
+#third .space .textHolder .textHere h3 {
+  font-family: "Roboto Slab";
+}
+
+#third .space .textHolder .textHere h3 a {
+  text-decoration: none;
+  color: black;
+}
+
+#third .space .textHolder .textHere .usersPart {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+#third .space .textHolder .textHere .usersPart p {
+  font-size: 1rem;
+}
+
+#third .space .textHolder .textHere .usersPart p a {
+  text-decoration: none;
+  font-size: 1rem;
+  color: white;
+}
+
+#third .space .textHolder .textHere .usersPart p .move {
+  margin: 0rem 0rem 0rem 0.4rem;
+}
+
+#third .space .textHolder .textHere .text p {
+  font-size: 1.2rem;
+}
+
+#third .space .textHolder .textHere .text p a {
+  text-decoration: none;
+  color: black;
+}
+
+#third .sidebar {
+  background-color: lavender;
+  padding: 1.5rem;
+}
+
+#third .sidebar .heading {
+  background: #dd2476;
+}
+
+#third .sidebar .heading h3 {
+  color: white;
+  text-transform: capitalize;
+  padding: 1rem;
+  letter-spacing: 0.1rem;
+  font-family: "Roboto Slab";
+}
+
+#third .sidebar .advertHere {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+#third .sidebar .advertHere h2 {
+  padding: 5rem 1rem 5rem 2rem;
+}
+
+#third .sidebar .popular {
+  background: #dd2476;
+}
+
+#third .sidebar .popular h3 {
+  color: white;
+  text-transform: capitalize;
+  padding: 1rem;
+  letter-spacing: 0.1rem;
+  font-family: "Roboto Slab";
+}
+
+#third .sidebar .textHolder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+#third .sidebar .textHolder .imageHere {
+  overflow: hidden;
+}
+
+#third .sidebar .textHolder .imageHere img {
+  width: 12rem;
+  height: 8rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: block;
+}
+
+#third .sidebar .textHolder .textHere {
+  margin-left: 0.5rem;
+}
+
+#third .sidebar .textHolder .textHere h5 a {
+  text-decoration: none;
+  color: black;
+}
+
+#third .sidebar .textHolder .textHere p a {
+  color: white;
+}
+
+.paginationBottom {
+  margin: 1rem;
+}
+
+.paginationBottom .pagination .page-item .page-link {
+  color: #dd2476;
+  font-size: 1.2rem;
+}
+
+footer {
+  background: #dd2476;
+  padding: 5rem 4rem;
+  color: whitesmoke;
+}
+
+footer h3 {
+  font-family: "Roboto Slab";
+}
+
+footer p {
+  font-size: 1.2rem;
+}
+
+footer .icons a {
+  text-decoration: none;
+  color: white;
+  margin: 0.2rem;
+  padding: 0.2rem 0.2rem 0.2rem 0rem;
+}
+
+footer .icons a i {
+  font-size: 1.3rem;
+  padding: 0.2rem;
+}
+
+footer .icons a:hover {
+  color: #ff512f;
+}
+
+#second .title {
+  background: black;
+  color: whitesmoke;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 4rem 0rem 4rem 0rem;
+}
+
+#second .title h1 {
+  font-family: "Roboto Slab";
+  font-weight: bold;
+  letter-spacing: 0.2rem;
+  font-size: 4rem;
+  text-transform: capitalize;
+}
+
+#second .title p {
+  padding: 1rem;
+}
+
+#second .title p a {
+  color: whitesmoke;
+  text-decoration: none;
+  text-transform: capitalize;
+  margin-right: 0.8rem;
+  font-size: 1.2rem;
+}
+
+#second .title p span {
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  margin-left: 1rem;
+}
+
+#third .title2 {
+  background: black;
+  padding: 0.5rem;
+  color: whitesmoke;
+  width: 30%;
+  border-radius: 0.3rem;
+}
+
+#third .title2 h4 {
+  padding: 0.3rem;
+  font-family: "Rubik";
+}
+
+#third .singleHeading {
+  font-family: "Roboto Slab";
+  padding-top: 0.8rem;
+  padding-bottom: 0.9rem;
+}
+
+#third .usersPart {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+#third .usersPart p a {
+  color: white;
+  font-size: 1.1rem;
+}
+
+#third .singleText {
+  font-size: 1.2rem;
+}
+
+#third .nextButtons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 3rem;
+}
+
+#third .nextButtons button {
+  background: black;
+  padding: 0.8rem;
+}
+
+#third .nextButtons button i {
+  color: white;
+  margin: 0.6rem;
+}
+
+#third .nextButtons button a {
+  text-decoration: none;
+  color: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+/*# sourceMappingURL=main.css.map */

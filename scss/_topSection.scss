@@ -1,0 +1,46 @@
+@import "./variables";
+#topSection {
+  background: $primaryColor;
+  .top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1.2rem 1.2rem 1.2rem 0rem;
+    a {
+      text-decoration: none;
+      color: white;
+      margin: 0.2rem;
+      padding: 0.2rem 0.2rem 0.2rem 0rem;
+      i {
+        font-size: 1.3rem;
+        padding: 0.2rem;
+      }
+      &:hover {
+        color: $secondaryColor;
+      }
+    }
+    .email {
+      font-size: 1.3rem;
+    }
+  }
+}
+#secondPosition {
+  background-color: whitesmoke;
+  color: black;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  .text {
+    h1 {
+      text-transform: uppercase;
+      letter-spacing: 0.2rem;
+      font-family: $roboto;
+      color: $primaryColor;
+      font-weight: bold;
+    }
+  }
+  .advert {
+    background: rgba(0, 0, 0, 0.2);
+    padding: 0.7rem 0.5rem 0.7rem 0.3rem;
+    text-align: center;
+  }
+}

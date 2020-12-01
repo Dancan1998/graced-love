@@ -1,0 +1,27 @@
+@import "./variables";
+footer {
+  background: $primaryColor;
+  padding: 5rem 4rem;
+  color: whitesmoke;
+  h3 {
+    font-family: $roboto;
+  }
+  p {
+    font-size: 1.2rem;
+  }
+  .icons {
+    a {
+      text-decoration: none;
+      color: white;
+      margin: 0.2rem;
+      padding: 0.2rem 0.2rem 0.2rem 0rem;
+      i {
+        font-size: 1.3rem;
+        padding: 0.2rem;
+      }
+      &:hover {
+        color: $secondaryColor;
+      }
+    }
+  }
+}

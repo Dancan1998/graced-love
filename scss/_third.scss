@@ -1,0 +1,124 @@
+@import "./variables";
+#third {
+  padding-top: 2rem;
+  .space {
+    background-color: lavender;
+    padding: 1.5rem;
+    .heading {
+      background: $primaryColor;
+      h3 {
+        color: white;
+        text-transform: capitalize;
+        padding: 1rem;
+        letter-spacing: 0.1rem;
+        font-family: $roboto;
+      }
+    }
+    .textHolder {
+      display: flex;
+      flex-direction: row;
+      margin-top: 0.8rem;
+      .imageHere {
+        overflow: hidden;
+
+        img {
+          width: 18rem;
+          height: 15rem;
+          object-fit: cover;
+          display: block;
+        }
+      }
+      .textHere {
+        margin-left: 1rem;
+        h3 {
+          font-family: $roboto;
+          a {
+            text-decoration: none;
+            color: black;
+          }
+        }
+        .usersPart {
+          display: flex;
+          flex-direction: row;
+          p {
+            font-size: 1rem;
+            a {
+              text-decoration: none;
+              font-size: 1rem;
+              color: white;
+            }
+            .move {
+              margin: 0rem 0rem 0rem 0.4rem;
+            }
+          }
+        }
+        .text {
+          p {
+            font-size: 1.2rem;
+            a {
+              text-decoration: none;
+              color: black;
+            }
+          }
+        }
+      }
+    }
+  }
+  .sidebar {
+    background-color: lavender;
+    padding: 1.5rem;
+    .heading {
+      background: $primaryColor;
+      h3 {
+        color: white;
+        text-transform: capitalize;
+        padding: 1rem;
+        letter-spacing: 0.1rem;
+        font-family: $roboto;
+      }
+    }
+    .advertHere {
+      background: rgba(0, 0, 0, 0.2);
+      h2 {
+        padding: 5rem 1rem 5rem 2rem;
+      }
+    }
+    .popular {
+      background: $primaryColor;
+      h3 {
+        color: white;
+        text-transform: capitalize;
+        padding: 1rem;
+        letter-spacing: 0.1rem;
+        font-family: $roboto;
+      }
+    }
+    .textHolder {
+      display: flex;
+      flex-direction: row;
+      .imageHere {
+        overflow: hidden;
+        img {
+          width: 12rem;
+          height: 8rem;
+          object-fit: cover;
+          display: block;
+        }
+      }
+      .textHere {
+        margin-left: 0.5rem;
+        h5 {
+          a {
+            text-decoration: none;
+            color: black;
+          }
+        }
+        p {
+          a {
+            color: white;
+          }
+        }
+      }
+    }
+  }
+}

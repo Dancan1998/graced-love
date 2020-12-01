@@ -1,0 +1,75 @@
+@import "./variables";
+#second {
+  .space {
+    margin-top: 0.8rem;
+  }
+  .heroText {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    img {
+      display: block;
+      width: 100%;
+      opacity: 0.8;
+    }
+    .text {
+      margin-top: -13rem;
+      margin-left: 3rem;
+      position: absolute;
+      z-index: 999;
+      button {
+        background-color: black;
+        padding: 0.5rem 0.9rem 0.5rem 0.9rem;
+        border-radius: 0.4rem;
+      }
+      a {
+        text-decoration: none;
+        color: white;
+        text-transform: capitalize;
+        font-family: $barlow;
+        font-size: 1.2rem;
+      }
+      h2 {
+        color: white;
+        margin-top: 1rem;
+        font-size: 2rem;
+      }
+      .usersPart {
+        display: flex;
+        flex-direction: row;
+        p {
+          margin: 0.6rem 0.5rem 0 0;
+          a {
+            text-decoration: none;
+            font-size: 1.4rem;
+          }
+          .move {
+            margin: 0rem 0rem 0rem 0.4rem;
+          }
+        }
+      }
+    }
+  }
+  .holder {
+    img {
+      width: 15rem;
+      height: 13rem;
+      object-fit: cover;
+      display: block;
+    }
+    .text {
+      margin-top: -10rem;
+    }
+  }
+  .covid {
+    background-color: #fffcf2;
+    padding: 0.5rem;
+    margin: 0.4rem 0rem 0.4rem 0rem;
+    box-shadow: 11px 1px 20px 0px rgba(0, 0, 0, 0.5);
+    a {
+      text-decoration: none;
+      color: black;
+    }
+  }
+}

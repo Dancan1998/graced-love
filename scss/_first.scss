@@ -1,0 +1,35 @@
+@import "./variables";
+#first {
+  .navbar {
+    background: $primaryColor;
+    padding: 1.5rem;
+    .navbar-brand {
+      color: white;
+      font-size: 1.3rem;
+    }
+    .nav-link {
+      text-decoration: none !important;
+      color: white;
+      text-transform: uppercase;
+      &:hover {
+        color: $secondaryColor;
+      }
+    }
+    .form-inline {
+      input {
+        border: none;
+        &:focus {
+          border: none !important;
+          background: white;
+          outline: none;
+        }
+      }
+      button {
+        color: white;
+        &:hover {
+          background: $secondaryColor;
+        }
+      }
+    }
+  }
+}
