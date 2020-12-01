@@ -133,12 +133,20 @@
   text-transform: capitalize;
   font-family: "Barlow";
   font-size: 1.2rem;
+  font-weight: bold;
 }
 
 #second .heroText .text h2 {
   color: white;
   margin-top: 1rem;
   font-size: 2rem;
+}
+
+#second .heroText .text h2 a {
+  text-decoration: none;
+  color: white;
+  font-size: 2rem;
+  font-weight: 600;
 }
 
 #second .heroText .text .usersPart {
@@ -542,5 +550,14 @@ footer .icons a:hover {
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+.sticky {
+  top: 0;
+  width: auto;
+  background: #dd2476;
+  z-index: 9999;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
 }
 /*# sourceMappingURL=main.css.map */

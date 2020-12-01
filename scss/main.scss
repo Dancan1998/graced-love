@@ -14,3 +14,12 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.sticky {
+  // position: fixed;
+  top: 0;
+  width: auto;
+  background: $primaryColor;
+  z-index: 9999;
+  transition: all 1s ease;
+}
