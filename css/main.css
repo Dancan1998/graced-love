@@ -38,6 +38,10 @@
   font-size: 1.3rem;
 }
 
+#topSection .top .email .email-2 {
+  display: none;
+}
+
 #secondPosition {
   background-color: whitesmoke;
   color: black;
@@ -157,6 +161,8 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 #second .heroText .text .usersPart p {
@@ -456,6 +462,7 @@ footer .icons a:hover {
 #third .title2 h4 {
   padding: 0.3rem;
   font-family: "Rubik";
+  text-align: center;
 }
 
 #third .singleHeading {
@@ -508,15 +515,23 @@ footer .icons a:hover {
   color: white;
 }
 
-#third .postContent {
+#third .postComment {
+  margin-top: 1rem;
+  padding-top: 1rem;
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
 }
 
-#third .postContent input[type="text"],
-#third .postContent select,
-#third .postContent textarea {
+#third .postComment .postTitle h4 {
+  text-transform: capitalize;
+  font-size: 1.5rem;
+  font-family: "Roboto Slab";
+}
+
+#third .postComment input[type="text"],
+#third .postComment select,
+#third .postComment textarea {
   width: 100%;
   /* Full width */
   padding: 12px;
@@ -536,13 +551,214 @@ footer .icons a:hover {
   /* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
-#third .postContent input[type="submit"] {
+#third .postComment input[type="submit"] {
   background-color: black;
   color: white;
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  #topSection .top {
+    padding: 0.5rem 0rem 0.5rem 0rem;
+  }
+  #topSection .top a {
+    padding: 0rem;
+  }
+  #topSection .top a i {
+    font-size: 1rem;
+  }
+  #topSection .top .email {
+    font-size: 1rem;
+  }
+  #secondPosition {
+    padding-top: 1.5rem;
+    padding-bottom: 1.3rem;
+  }
+  #secondPosition .text h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+  #secondPosition .advert {
+    padding: 0.5rem 0.3rem 0.5rem 0.3rem;
+  }
+  #first .navbar {
+    padding: 0.8rem;
+  }
+  #second .heroText .text {
+    margin-top: -10rem;
+    margin-left: 2rem;
+  }
+  #second .heroText .text button {
+    padding: 0.3rem 0.5rem 0.3rem 0.5rem;
+  }
+  #second .heroText .text button a {
+    font-size: 1rem;
+  }
+  #second .heroText .text h2 {
+    margin-top: 0.7rem;
+    font-size: 1rem;
+  }
+  #second .heroText .text h2 a {
+    font-size: 1.5rem;
+  }
+  #second .heroText .text .usersPart p {
+    margin: 0.5rem 0.4rem 0 0;
+  }
+  #second .heroText .text .usersPart p a {
+    font-size: 1.1rem;
+  }
+  #second .covid a,
+  #second .covid h5 {
+    font-size: 1rem;
+  }
+  #third .space {
+    padding: 1rem;
+  }
+  #third .space .heading h3 {
+    font-size: 1.5rem;
+  }
+  #third .space .textHolder {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    border-bottom: 2px solid #ff512f;
+  }
+  #third .space .textHolder .imageHere img {
+    width: 100%;
+  }
+  #third .space .textHolder .textHere {
+    margin-left: 0rem;
+  }
+  #third .space .textHolder .textHere h3 {
+    font-size: 1rem !important;
+  }
+  #third .space .textHolder .textHere h3 a {
+    font-size: 1rem !important;
+  }
+  #third .space .textHolder .text p {
+    font-size: 1rem !important;
+  }
+  #third .sidebar {
+    padding: 1rem;
+  }
+  #third .sidebar .popular h3 {
+    font-size: 1rem;
+  }
+  #third .sidebar .textHolder {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #third .title2 {
+    width: 30%;
+    padding: 0.1rem;
+  }
+  #third .title2 h4 {
+    font-size: 1rem;
+    text-align: center;
+  }
+  #third .singleHeading {
+    font-size: 1.2rem;
+    padding-bottom: 0.3rem;
+  }
+  #third .usersPart p {
+    font-size: 1rem;
+  }
+  #third .usersPart p a {
+    font-size: 0.8rem;
+  }
+  #third .singleText {
+    font-size: 1rem;
+  }
+  #third .nextButtons {
+    margin: 1rem;
+  }
+  #third .nextButtons button {
+    padding: 0.5rem;
+  }
+  #third .nextButtons button i {
+    margin: 0.2rem;
+  }
+  #third .nextButtons button a {
+    font-size: 1rem;
+  }
+  .textHolder .textHere h5 a {
+    font-size: 1rem;
+  }
+  .textHolder .textHere p a {
+    font-size: 0.8rem;
+  }
+  footer {
+    padding: 4rem 3rem;
+  }
+  footer h3 {
+    font-size: 1.5rem;
+  }
+  footer p {
+    font-size: 1rem;
+  }
+  footer h5 {
+    font-size: 1rem;
+  }
+  footer .icons {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 435px) {
+  #topSection .top {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #secondPosition .text {
+    text-align: center;
+  }
+  #secondPosition .text h1 {
+    font-size: 1.5rem;
+    text-align: center !important;
+  }
+  #second .space .heroText .text {
+    margin-top: -10rem;
+  }
+  #second .space .heroText .text button {
+    padding: 0.3rem;
+  }
+  #second .space .heroText a {
+    font-size: 0.8rem;
+  }
+  #second .space .heroText h2 a {
+    font-size: 1.2rem;
+  }
+  #second .space .heroText .usersPart p {
+    margin: 0.3rem 0.2rem 0 0;
+  }
+  #second .space .heroText .usersPart p a {
+    font-size: 1rem;
+  }
+  #third .sidebar .textHolder .imageHere img {
+    width: 100%;
+    height: 20rem;
+  }
 }
 
 * {

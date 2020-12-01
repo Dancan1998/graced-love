@@ -45,6 +45,7 @@
       .usersPart {
         display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
         p {
           margin: 0.6rem 0.5rem 0 0;
           a {
